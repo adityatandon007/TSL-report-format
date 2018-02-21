@@ -1,38 +1,80 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow" rel="stylesheet">
-        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> -->
-        <link rel="stylesheet" href="css/main.css">
-    </head>
-    <body>
-        <header>
-            <div class="header">
-                <img src="images/tsl_logo.png" alt="TSL Logo">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+
+    <title>Proposal</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md fixed-top bg-warning">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <img  src="images/tsl_logo.png" class="navbar-brand" href="#" style="width: 10%">
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="whyus.html">Why us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="highlights.html">Highlights</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="Timeline.html">Timeline</a>
+                  </li>
+                </ul>
             </div>
-        </header>
-        <div class="clearfix">
-            <img class="img-left" src="images/src.bmp" alt="Solar Panel Image" width="500" height="500">
-            <h4 class="text-center">{{systemSize}} On-Grid Project Proposal</h4>
-            <div class="mb-2">
-                <p>For,</p>
-                <p>{{clName}}</p>
-                <p>{{clAddress}}</p>
-                <p>{{clEmail}}</p>
-                <p>{{clPhone}}</p>
-                <div class="border-bottom"></div>
-                <p>On behalf of</p>
-                <p>{{organisation.name}}</p>
-                <p>Date: {{organisation.createdAt}}</p>
+        </nav>
+    </header>
+    <main>
+        <div class="container-fluid mb-3 mt-3">
+            <div class="row">
+                <div class="col-md-4 mx-auto">
+                    <img src="images/src.bmp" alt="Image">
+                </div>
             </div>
         </div>
-        <!-- <footer>
-            <div class="footer">
-               <p>&copy; Sunpact Technologies Pvt Ltd 2018</p>
-                <p>
-                    Plot 7-10, NASSCOM, Noida | +91-8628868995, +91-9805902323 | <a href="#">info@thesolarlabs.com |</a>
-                </p> 
+        <div class="container-fluid mb-3">
+            <h2 class="text-center">15.4 KW On-Grid Project Proposal</h2>
+        </div>
+        <div class="container-fluid mb-3">
+            <div class="mb-2"><span class="font-bold">For,</span></div>
+            <div class="mb-2"><span class="border-b">en Possibilities</span></div>
+            <div class="mb-2"><span class="border-b">Sree Balaji Industries Ambala, Haryana</span></div>
+            <div class="mb-2"><span class="border-b">sreebalaji@gmail.com</span></div>
+            <div class="mb-2"><span class="border-b">+91-9898989898</span></div>
+        </div>
+        <div class="container-fluid mb-3">
+            <div class="mb-2"><span class="font-bold">On behalf of</span></div>
+            <div class="mb-2"><span class="border-b">Solar labs</span></div>
+        </div>
+        <div class="container-fluid mb-3">
+            <div class="mb-2"><span class="font-bold">Date: 20/2/2018</span></div>
+        </div>
+    </main>
+    <footer class="bg-warning">
+        <div class="container-fluid mb-3">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-center text-white">&copy; Sunpact Technologies Pvt Ltd 2018</p>
+                </div>
+                <div class="col-md-6 mx-auto">
+                    <p class="text-white">Plot 7-10, NASSCOM, Noida | +91-8628868995, +91-9805902323 | <a href="#">info@thesolarlabs.com |</a></p>
+                </div>
             </div>
-        </footer> -->
-    </body>
+        </div>
+    </footer>
+ </body>
 </html>
